@@ -20,8 +20,6 @@ function do_the_rdpg(A,d)
     return (L̂ = L̂, R̂ = R̂)
 end
 
-
-
 # Create function do give neural net an input.
 
 # Function that takes take vertex embedding, one vertex and returns all distances between that vertex and the k closest vertices

@@ -8,7 +8,7 @@ k=10
 dv = zeros(Int, n)
 ev = ones(Int, n-1)
 
-T = Matrix(SymTridiagonal(dv, ev))
+T = Matrix(Tridiagonal(zeros(Int, n-1),dv, ev))
 
 A = Matrix(BlockDiagonal([zeros(1,1), ones(k,k), T]))
 
@@ -36,5 +36,5 @@ series[1]
 using DelimitedFiles
 
 for i in 1:length(series)
-    writedlm(string("/home/connor/Thesis/Code/Toy Example Graph/Graph Series/longTailSmallBlob/step", i, ".csv"), series[i], ",")
+    writedlm(string("/home/connor/Thesis/Code/Graph Series/longTailDirectional/step", i, ".csv"), series[i], ",")
 end

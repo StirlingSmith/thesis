@@ -1,4 +1,4 @@
-using Lux, DiffEqFlux, DifferentialEquations, Optimization, OptimizationOptimJL
+using Lux, DiffEqFlux, DifferentialEquations, Optimization, OptimizationOptimJL, ForwardDiff
 
 # User needs to provide:
 #   u0
@@ -9,16 +9,13 @@ using Lux, DiffEqFlux, DifferentialEquations, Optimization, OptimizationOptimJL
 #   output_data_length
 
 
-# loss = []
-
 function predict_neuralode(θ)
   Array(solve(prob_neuralode, Tsit5(), saveat = tsteps, p = θ))
 end
 
 function loss_neuralode(θ)
     pred = predict_neuralode(θ)
-    
-    loss = sum(abs2, pred.-TNode_data.A)
+    loss = sum((pred[:,1,:].-TNode_data.A).^2)
     return loss
 end
 
@@ -33,12 +30,10 @@ end
 function NODEproblem()
   # Do not plot by default for the documentation
   # Users should change doplot=true to see the plots callbacks
-
-
   pinit = Lux.ComponentArray(p)
 
   # use Optimization.jl to solve the problem
-  adtype = Optimization.AutoZygote()
+  adtype = Optimization.AutoForwardDiff()
 
 
   optf = Optimization.OptimizationFunction((x, p) -> loss_neuralode(x), adtype)
@@ -47,20 +42,3 @@ function NODEproblem()
   return optprob
 end
 
-
-function NODEproblem(p)
-  # Do not plot by default for the documentation
-  # Users should change doplot=true to see the plots callbacks
-
-
-  pinit = Lux.ComponentArray(p)
-
-  # use Optimization.jl to solve the problem
-  adtype = Optimization.AutoZygote()
-
-
-  optf = Optimization.OptimizationFunction((x, p) -> loss_neuralode(x), adtype)
-  optprob = Optimization.OptimizationProblem(optf, pinit)
-  
-  return optprob
-end

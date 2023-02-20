@@ -29,8 +29,5 @@ Base.length(X::TemporalNetworkEmbedding) = size(X.A)[2]
 
 Base.iterate(X::TemporalNetworkEmbedding) = [X[i] for i in 1:length(X)]
 
-A =[1 2 3 4 5 6]'
-TNet = TemporalNetworkEmbedding(A, 2, 3)
 
-targetNode(TNet,2).n
 

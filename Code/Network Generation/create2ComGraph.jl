@@ -3,7 +3,7 @@ using BlockDiagonals
 
 n=50
 k=40
-d=20
+d=39
 
 A = Matrix(BlockDiagonal([zeros(1,1), ones(k,k), ones(n,n)]))
 
@@ -25,5 +25,5 @@ end
 using DelimitedFiles
 
 for i in 1:length(series)
-    writedlm(string("/home/connor/Thesis/Code/Toy Example Graph/Graph Series/2communities/step", i, ".csv"), series[i], ",")
+    writedlm(string("/home/connor/Thesis/Code/Graph Series/2communities/step", i, ".csv"), series[i], ",")
 end
