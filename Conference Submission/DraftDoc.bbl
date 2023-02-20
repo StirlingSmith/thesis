@@ -1,0 +1,281 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{ynt/global//global/global}
+    \entry{golub1971singular}{incollection}{}
+      \name{author}{2}{}{%
+        {{hash=8b856da92ad549d323acc679ecf7f474}{%
+           family={Golub},
+           familyi={G\bibinitperiod},
+           given={Gene\bibnamedelima H},
+           giveni={G\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=5bb4641652deb69ab70bbd809af4391b}{%
+           family={Reinsch},
+           familyi={R\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{2896805e25a93d3806a7b87bc42ba1b9}
+      \strng{fullhash}{2896805e25a93d3806a7b87bc42ba1b9}
+      \strng{bibnamehash}{2896805e25a93d3806a7b87bc42ba1b9}
+      \strng{authorbibnamehash}{2896805e25a93d3806a7b87bc42ba1b9}
+      \strng{authornamehash}{2896805e25a93d3806a7b87bc42ba1b9}
+      \strng{authorfullhash}{2896805e25a93d3806a7b87bc42ba1b9}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Linear algebra}
+      \field{title}{Singular value decomposition and least squares solutions}
+      \field{year}{1971}
+      \field{pages}{134\bibrangedash 151}
+      \range{pages}{18}
+    \endentry
+    \entry{hoff2002latent}{article}{}
+      \name{author}{3}{}{%
+        {{hash=4f65d919a92f4c4afcabd6cad3be75ae}{%
+           family={Hoff},
+           familyi={H\bibinitperiod},
+           given={Peter\bibnamedelima D},
+           giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=205b9f60128ee13642fa79b6f1330d63}{%
+           family={Raftery},
+           familyi={R\bibinitperiod},
+           given={Adrian\bibnamedelima E},
+           giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=279407956525fc33169d45fb6000b0f3}{%
+           family={Handcock},
+           familyi={H\bibinitperiod},
+           given={Mark\bibnamedelima S},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{c5ccdda0aa052bca79ceaab6fafe4cc8}
+      \strng{fullhash}{20ed09f861d629958792a47ee31e3a61}
+      \strng{bibnamehash}{20ed09f861d629958792a47ee31e3a61}
+      \strng{authorbibnamehash}{20ed09f861d629958792a47ee31e3a61}
+      \strng{authornamehash}{c5ccdda0aa052bca79ceaab6fafe4cc8}
+      \strng{authorfullhash}{20ed09f861d629958792a47ee31e3a61}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the american Statistical association}
+      \field{number}{460}
+      \field{title}{Latent space approaches to social network analysis}
+      \field{volume}{97}
+      \field{year}{2002}
+      \field{pages}{1090\bibrangedash 1098}
+      \range{pages}{9}
+    \endentry
+    \entry{athreya2017statistical}{article}{}
+      \name{author}{9}{}{%
+        {{hash=d8dabfd2a6effdd8ecba5e09b04bfb1b}{%
+           family={Athreya},
+           familyi={A\bibinitperiod},
+           given={Avanti},
+           giveni={A\bibinitperiod}}}%
+        {{hash=98c1f80fe96aba7a8be7ff246c410f51}{%
+           family={Fishkind},
+           familyi={F\bibinitperiod},
+           given={Donniell\bibnamedelima E},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=3dabe378f3c72dc260ada5bfad194ccc}{%
+           family={Tang},
+           familyi={T\bibinitperiod},
+           given={Minh},
+           giveni={M\bibinitperiod}}}%
+        {{hash=42001dc02d560e1d285d4ba61ad8da0a}{%
+           family={Priebe},
+           familyi={P\bibinitperiod},
+           given={Carey\bibnamedelima E},
+           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=cc0dca3c1c23b7f98e7c7f8f9d945823}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={Youngser},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=863e81711362b73909705ca198fc742e}{%
+           family={Vogelstein},
+           familyi={V\bibinitperiod},
+           given={Joshua\bibnamedelima T},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=c3fb45c8301446892a46d9507dce21a5}{%
+           family={Levin},
+           familyi={L\bibinitperiod},
+           given={Keith},
+           giveni={K\bibinitperiod}}}%
+        {{hash=5df169d0de1ee96761d0ba8df7094398}{%
+           family={Lyzinski},
+           familyi={L\bibinitperiod},
+           given={Vince},
+           giveni={V\bibinitperiod}}}%
+        {{hash=edd49812f8591c844a052e55f0106a10}{%
+           family={Qin},
+           familyi={Q\bibinitperiod},
+           given={Yichen},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {JMLR. org}%
+      }
+      \strng{namehash}{789ff769625b921561ea0c2cc54ce065}
+      \strng{fullhash}{30678219bb7d78d9a123bcd8eb3c5302}
+      \strng{bibnamehash}{789ff769625b921561ea0c2cc54ce065}
+      \strng{authorbibnamehash}{789ff769625b921561ea0c2cc54ce065}
+      \strng{authornamehash}{789ff769625b921561ea0c2cc54ce065}
+      \strng{authorfullhash}{30678219bb7d78d9a123bcd8eb3c5302}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Machine Learning Research}
+      \field{number}{1}
+      \field{title}{Statistical inference on random dot product graphs: a survey}
+      \field{volume}{18}
+      \field{year}{2017}
+      \field{pages}{8393\bibrangedash 8484}
+      \range{pages}{92}
+    \endentry
+    \entry{SciML_C_Rak}{article}{}
+      \name{author}{8}{}{%
+        {{hash=c454e867cc51042dbb2c4a284006599f}{%
+           family={Rackauckas},
+           familyi={R\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod}}}%
+        {{hash=20505ba2d4ff3726270435a325081550}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Yingbo},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=6bc5796885472d9051bc8af919bddc0f}{%
+           family={Martensen},
+           familyi={M\bibinitperiod},
+           given={Julius},
+           giveni={J\bibinitperiod}}}%
+        {{hash=19af9ef181d314df09a8850cded60831}{%
+           family={Warner},
+           familyi={W\bibinitperiod},
+           given={Collin},
+           giveni={C\bibinitperiod}}}%
+        {{hash=2c252f48b45ea1f4139531d7fdc48549}{%
+           family={Zubov},
+           familyi={Z\bibinitperiod},
+           given={Kirill},
+           giveni={K\bibinitperiod}}}%
+        {{hash=754f408b6b83ad9d63aa8d58927fca26}{%
+           family={Supekar},
+           familyi={S\bibinitperiod},
+           given={Rohit},
+           giveni={R\bibinitperiod}}}%
+        {{hash=31827efba1c8bd6685a99f893a1b2919}{%
+           family={Skinner},
+           familyi={S\bibinitperiod},
+           given={Dominic},
+           giveni={D\bibinitperiod}}}%
+        {{hash=31f998eac8981aef518abd08fa30a30b}{%
+           family={Ramadhan},
+           familyi={R\bibinitperiod},
+           given={Ali\bibnamedelima Jasim},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{c58131c3ce606662dc0a6d52c59cadbe}
+      \strng{fullhash}{f54d96f69556768308f88982da960d4a}
+      \strng{bibnamehash}{c58131c3ce606662dc0a6d52c59cadbe}
+      \strng{authorbibnamehash}{c58131c3ce606662dc0a6d52c59cadbe}
+      \strng{authornamehash}{c58131c3ce606662dc0a6d52c59cadbe}
+      \strng{authorfullhash}{f54d96f69556768308f88982da960d4a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{CoRR}
+      \field{title}{Universal Differential Equations for Scientific Machine Learning}
+      \field{volume}{abs/2001.04385}
+      \field{year}{2020}
+      \verb{eprint}
+      \verb 2001.04385
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2001.04385
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2001.04385
+      \endverb
+    \endentry
+    \entry{kidger2022neural}{article}{}
+      \name{author}{1}{}{%
+        {{hash=051731aab4dfad9f49233270e9e83536}{%
+           family={Kidger},
+           familyi={K\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{051731aab4dfad9f49233270e9e83536}
+      \strng{fullhash}{051731aab4dfad9f49233270e9e83536}
+      \strng{bibnamehash}{051731aab4dfad9f49233270e9e83536}
+      \strng{authorbibnamehash}{051731aab4dfad9f49233270e9e83536}
+      \strng{authornamehash}{051731aab4dfad9f49233270e9e83536}
+      \strng{authorfullhash}{051731aab4dfad9f49233270e9e83536}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2202.02435}
+      \field{title}{On neural differential equations}
+      \field{year}{2022}
+    \endentry
+    \entry{Emma2023}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=78293f0eb7b59eb1671e48d9f5e495b8}{%
+           family={Hogan},
+           familyi={H\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {GitHub}%
+      }
+      \strng{namehash}{78293f0eb7b59eb1671e48d9f5e495b8}
+      \strng{fullhash}{78293f0eb7b59eb1671e48d9f5e495b8}
+      \strng{bibnamehash}{78293f0eb7b59eb1671e48d9f5e495b8}
+      \strng{authorbibnamehash}{78293f0eb7b59eb1671e48d9f5e495b8}
+      \strng{authornamehash}{78293f0eb7b59eb1671e48d9f5e495b8}
+      \strng{authorfullhash}{78293f0eb7b59eb1671e48d9f5e495b8}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://github.com/roonil-wazlib/connor_cant_tikz}}
+      \field{journaltitle}{GitHub repository}
+      \field{title}{Connor Can't Tikz}
+      \field{year}{2023}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
